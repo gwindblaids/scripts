@@ -48,9 +48,8 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set hls
+
 " Settings for Python
-
-
 set tabstop=4
 set shiftwidth=4
 set smarttab
@@ -59,7 +58,6 @@ set softtabstop=4
 set autoindent
 let python_highlight_all = 1
 set t_Co=256
-
 
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
@@ -76,12 +74,10 @@ set showtabline=1
 set wrap
 set linebreak
 
-
 set nobackup
 noswapfile
 set encoding=utf-8
 set fileencodings=utf8,cp1251
-
 
 set clipboard=unnamed
 set ruler
@@ -90,11 +86,7 @@ set hidden
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-p> :bprev<CR>
 
-
 set visualbell t_vb=
-
 
 set guifont=Hack:h18
 colorscheme OceanicNext
-
-

@@ -4,7 +4,7 @@
 # -----------------------------------------------------------------------------
 
 echo "install packages from official repository..." 
-pacman -S python-pip git wget vim chromium firefox thunderbird gnome-disk-utility latte-dock bleachbit flameshot htop gimp kdenlive tmux telegram-desktop transmission-gtk vlc zeal yakuake obs-studio gwenview okular libreoffice audacity ark nvidia nvidia-settings dolphin ripgrep
+pacman -S python-pip git wget vim chromium firefox thunderbird gnome-disk-utility latte-dock bleachbit flameshot htop gimp kdenlive tmux telegram-desktop transmission-gtk vlc zeal yakuake obs-studio gwenview okular libreoffice audacity ark nvidia nvidia-settings dolphin ripgrep bpython
 
 # -----------------------------------------------------------------------------
 

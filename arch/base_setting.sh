@@ -33,6 +33,13 @@ git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin && makepkg -sri
 cd .. && rm -rf visual-studio-code-bin
 
+# crow_translate
+echo "install crow translate..."
+git clone https://aur.archlinux.org/crow-translate-git.git 
+cd crow-translate-git && makepkg -sri
+cd .. && rm -rf crow-translate-git 
+
+
 # -----------------------------------------------------------------------------
 
 echo "install calibre"

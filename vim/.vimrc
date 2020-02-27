@@ -62,6 +62,9 @@ set t_Co=256
 autocmd BufWritePre *.py normal m`:%s/\s\+$//e ``
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 
+" hotkey for run python code from buffer
+imap <F5> <Esc>:w<CR>:!clear;python %<CR>
+
 syntax on
 set nu
 set mousehide

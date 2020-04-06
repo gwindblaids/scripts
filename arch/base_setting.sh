@@ -4,7 +4,14 @@
 # -----------------------------------------------------------------------------
 
 echo "install packages from official repository..." 
-pacman -S python-pip git wget vim chromium firefox thunderbird gnome-disk-utility latte-dock bleachbit flameshot htop gimp kdenlive tmux telegram-desktop transmission-gtk vlc zeal yakuake obs-studio gwenview okular libreoffice audacity ark nvidia nvidia-settings dolphin ripgrep bpython curl docker
+pacman -S python-pip git wget vim chromium firefox thunderbird gnome-disk-utility latte-dock bleachbit flameshot htop gimp kdenlive tmux telegram-desktop transmission-gtk vlc zeal yakuake obs-studio gwenview okular libreoffice audacity ark nvidia nvidia-settings dolphin ripgrep bpython curl docker zsh zsh-completions
+
+# -----------------------------------------------------------------------------
+
+echo "install oh, my zsh..."
+
+curl -Lo install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
+sh install.sh
 
 # -----------------------------------------------------------------------------
 

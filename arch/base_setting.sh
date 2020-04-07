@@ -80,7 +80,7 @@ echo "setting vim"
 
 git clone https://github.com/VundleVim/Vundle.vim.git $HOME/.vim/bundle/Vundle.vim
 echo "syntax on
-imap <F5>:w<CR>:!clear;python3 %<CR>
+imap <F5> <Esc>:w<CR>:!clear;python %<CR>
 filetype plugin indent on               
 
 set rtp+=~/vimfiles/bundle/vundle/
